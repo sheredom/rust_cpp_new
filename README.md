@@ -1,5 +1,7 @@
 # Rust C++ New
 
+[![Build status](https://api.travis-ci.org/repositories/sheredom/rust_cpp_new.svg)](https://travis-ci.org/sheredom/rust_cpp_new)
+
 This Rust crate maps the C++ new/delete/new[]/delete[] operators via extern "C"
 functions into Rust's allocators.
 
