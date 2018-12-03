@@ -1,6 +1,6 @@
 [package]
 license = "CC0-1.0"
-name = "cpp_new"
+name = "rust_cpp_new"
 version = "0.1.0"
 authors = ["Neil Henning <sheredom@gmail.com>"]
 
