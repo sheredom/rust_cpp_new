@@ -8,7 +8,7 @@ authors = ["Neil Henning <sheredom@gmail.com>"]
 cc = "1.0.25"
 
 [dev-dependencies]
-cpp_new_simple_cpp_lib = { path = "tests/simple_cpp_lib" }
+cpp_new_simple_cpp_lib = { path = "tests/simple_cpp_lib", version = "0.1.0" }
 lazy_static = "1.2.0"
 libc = "0.2"
 
