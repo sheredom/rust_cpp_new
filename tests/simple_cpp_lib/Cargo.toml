@@ -1,0 +1,8 @@
+[package]
+license = "CC0-1.0"
+name = "cpp_new_simple_cpp_lib"
+version = "0.1.0"
+authors = ["Neil Henning <sheredom@gmail.com>"]
+
+[build-dependencies]
+cc = "1.0.25"
