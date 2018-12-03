@@ -3,6 +3,7 @@ extern crate cpp_new_simple_cpp_lib;
 extern crate jemallocator;
 
 #[global_allocator]
+#[cfg(not(windows))]
 static ALLOC: jemallocator::Jemalloc = jemallocator::Jemalloc;
 
 use cpp_new_simple_cpp_lib::*;
