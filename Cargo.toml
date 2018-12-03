@@ -1,6 +1,6 @@
 [package]
 license = "CC0-1.0"
-name = "rust_cpp_new"
+name = "cpp_new"
 version = "0.1.0"
 authors = ["Neil Henning <sheredom@gmail.com>"]
 
@@ -11,3 +11,6 @@ cc = "1.0.25"
 cpp_new_simple_cpp_lib = { path = "tests/simple_cpp_lib" }
 lazy_static = "1.2.0"
 libc = "0.2"
+
+[badges]
+travis-ci = { repository = "sheredom/rust_cpp_new" }
