@@ -1,5 +1,7 @@
 extern crate cpp_new;
 extern crate cpp_new_simple_cpp_lib;
+
+#[cfg(not(windows))]
 extern crate jemallocator;
 
 #[global_allocator]
