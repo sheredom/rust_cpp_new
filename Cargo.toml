@@ -3,6 +3,10 @@ license = "CC0-1.0"
 name = "cpp_new"
 version = "0.1.0"
 authors = ["Neil Henning <sheredom@gmail.com>"]
+description = "Overload C++ new/delete to map them back to Rust's global allocator"
+repository = "https://github.com/sheredom/rust_cpp_new"
+readme = "README.md"
+keywords = ["cpp", "CPP", "new", "delete", "allocator"]
 
 [build-dependencies]
 cc = "1.0.25"

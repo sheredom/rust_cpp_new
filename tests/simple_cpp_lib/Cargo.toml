@@ -3,6 +3,7 @@ license = "CC0-1.0"
 name = "cpp_new_simple_cpp_lib"
 version = "0.1.0"
 authors = ["Neil Henning <sheredom@gmail.com>"]
+description = "Test crate required for cpp_new"
 
 [build-dependencies]
 cc = "1.0.25"
